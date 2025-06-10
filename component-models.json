@@ -1276,6 +1276,13 @@
             "component": "boolean",
             "name": "readOnly",
             "label": "Read-only",
+            "valueType": "boolean",
+            "value": true
+          },
+          {
+            "component": "boolean",
+            "name": "multiSelect",
+            "label": "Allow multiple selection",
             "valueType": "boolean"
           },
           {
