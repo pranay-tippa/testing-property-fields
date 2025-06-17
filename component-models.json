@@ -2654,10 +2654,28 @@
               {
                 "name": "123,421%",
                 "value": "#,###,##0%"
+              },
+              {
+                "name": "Custom",
+                "value": "custom"
               }
             ]
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "displayFormatType",
+        "valueType": "string",
+        "label": "Custom Format",
+        "condition": {
+          "==": [
+            {
+              "var": "displayFormat"
+            },
+            "custom"
+          ]
+        }
       }
     ]
   },
