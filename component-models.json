@@ -1180,7 +1180,7 @@
           {
             "component": "select",
             "label": "Display Format",
-            "name": "displayFormat",
+            "name": "displayPatternType",
             "valueType": "string",
             "options": [
               {
@@ -1206,8 +1206,26 @@
               {
                 "name": "1/4/2007",
                 "value": "d/M/y"
+              },
+              {
+                "name": "Custom",
+                "value": "custom"
               }
             ]
+          },
+          {
+            "component": "text",
+            "name": "displayFormat",
+            "valueType": "string",
+            "label": "Custom Format",
+            "condition": {
+              "==": [
+                {
+                  "var": "displayFormat"
+                },
+                "custom"
+              ]
+            }
           }
         ]
       }
@@ -2625,7 +2643,7 @@
       },
       {
         "component": "container",
-        "name": "formats",
+        "name": "displayPatternType",
         "label": "Formats",
         "collapsible": true,
         "fields": [
@@ -2665,7 +2683,7 @@
       },
       {
         "component": "text",
-        "name": "displayFormatType",
+        "name": "displayFormat",
         "valueType": "string",
         "label": "Custom Format",
         "condition": {
