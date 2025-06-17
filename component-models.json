@@ -1221,7 +1221,7 @@
             "condition": {
               "==": [
                 {
-                  "var": "displayFormat"
+                  "var": "displayPatternType"
                 },
                 "custom"
               ]
@@ -2643,14 +2643,14 @@
       },
       {
         "component": "container",
-        "name": "displayPatternType",
+        "name": "formats",
         "label": "Formats",
         "collapsible": true,
         "fields": [
           {
             "component": "select",
             "label": "Display Format",
-            "name": "displayFormat",
+            "name": "displayPatternType",
             "valueType": "string",
             "options": [
               {
@@ -2689,7 +2689,7 @@
         "condition": {
           "==": [
             {
-              "var": "displayFormat"
+              "var": "displayPatternType"
             },
             "custom"
           ]
