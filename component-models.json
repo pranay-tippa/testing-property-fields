@@ -2842,7 +2842,7 @@
             "condition": {
               "===": [
                 {
-                  "var": "repeatable"
+                  "var": "repeat|repeatable"
                 },
                 true
               ]
@@ -2860,7 +2860,7 @@
                 {
                   "===": [
                     {
-                      "var": "repeatable"
+                      "var": "repeat|repeatable"
                     },
                     true
                   ]
@@ -2868,7 +2868,7 @@
                 {
                   "!==": [
                     {
-                      "var": "variant"
+                      "var": "repeat|variant"
                     },
                     "noButtons"
                   ]
@@ -2894,7 +2894,7 @@
             "condition": {
               "===": [
                 {
-                  "var": "repeatable"
+                  "var": "repeat|repeatable"
                 },
                 true
               ]
@@ -2911,7 +2911,7 @@
                 {
                   "===": [
                     {
-                      "var": "variant"
+                      "var": "repeat|variant"
                     },
                     "addDeleteButtons"
                   ]
@@ -2919,7 +2919,7 @@
                 {
                   "===": [
                     {
-                      "var": "repeatable"
+                      "var": "repeat|repeatable"
                     },
                     true
                   ]
@@ -2938,7 +2938,7 @@
                 {
                   "===": [
                     {
-                      "var": "variant"
+                      "var": "repeat|variant"
                     },
                     "addDeleteButtons"
                   ]
@@ -2946,7 +2946,7 @@
                 {
                   "===": [
                     {
-                      "var": "repeatable"
+                      "var": "repeat|repeatable"
                     },
                     true
                   ]
