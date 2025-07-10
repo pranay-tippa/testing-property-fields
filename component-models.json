@@ -1221,7 +1221,7 @@
             "condition": {
               "==": [
                 {
-                  "var": "displayPatternType"
+                  "var": "formats|displayPatternType"
                 },
                 "custom"
               ]
@@ -2689,7 +2689,7 @@
         "condition": {
           "==": [
             {
-              "var": "displayPatternType"
+              "var": "formats|displayPatternType"
             },
             "custom"
           ]
